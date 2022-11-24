@@ -13,5 +13,5 @@ jobs:
         run: echo "Hello bujji!"
       - name: Run a multi-line script
         run: |
-          python -v
-          java -v
+          echo "hi Kavita"
+          echo "hlo surya"
