@@ -1,17 +1,10 @@
 name: Shell commands
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "test" ]
+
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Hello bujji!"
-      - name: Run a multi-line script
-        run: |
-          echo "hi Kavita"
+
           echo "hlo surya"
